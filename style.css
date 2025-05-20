@@ -1,0 +1,51 @@
+body {
+  background-color: #e0f0ff;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border: 2px solid #007BFF;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+#helloMessage {
+  margin: 10px;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
